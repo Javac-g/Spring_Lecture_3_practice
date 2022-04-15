@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="accc0767-fde1-4914-993f-cfaeff7a0322" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="251ctC0wMEkT8N81Q9Drk8YBoaj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main_Two">
+    <configuration name="Applet" type="Applet">
+      <option name="MAIN_CLASS_NAME" value="Streams.Applet.RES.Simple" />
+      <module name="enum" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdas.Practice_04_06_22.Links_To_GenMet.Two.App" />
+      <module name="enum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lambdas.Practice_04_06_22.Links_To_GenMet.Two.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdas.Practice_04_06_22.LinksToCOns.Ver3.App" />
+      <module name="enum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lambdas.Practice_04_06_22.LinksToCOns.Ver3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdas.Practice_04_06_22.Links_To_GenMet.Ver3.App" />
+      <module name="enum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lambdas.Practice_04_06_22.Links_To_GenMet.Ver3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdas.practice_04_07_22.Main" />
+      <module name="enum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lambdas.practice_04_07_22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_Two" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdas.practice_04_07_22.Main_Two" />
+      <module name="enum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lambdas.practice_04_07_22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Applet.Applet" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main_Two" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main_Two" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="accc0767-fde1-4914-993f-cfaeff7a0322" name="Default Changelist" comment="" />
+      <created>1644698246348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644698246348</updated>
+      <workItem from="1644698251629" duration="3261000" />
+      <workItem from="1645041251124" duration="21000" />
+      <workItem from="1645107637125" duration="1577000" />
+      <workItem from="1645265899851" duration="15192000" />
+      <workItem from="1645453844554" duration="3454000" />
+      <workItem from="1645463357177" duration="5262000" />
+      <workItem from="1645567185638" duration="6484000" />
+      <workItem from="1645618225732" duration="7541000" />
+      <workItem from="1645886050412" duration="14305000" />
+      <workItem from="1646238925650" duration="8897000" />
+      <workItem from="1646307062427" duration="14825000" />
+      <workItem from="1646329744143" duration="1887000" />
+      <workItem from="1646334322708" duration="951000" />
+      <workItem from="1646484604247" duration="10207000" />
+      <workItem from="1646668005572" duration="2949000" />
+      <workItem from="1646694569472" duration="638000" />
+      <workItem from="1646695933981" duration="1947000" />
+      <workItem from="1646755942791" duration="7405000" />
+      <workItem from="1646773827723" duration="3529000" />
+      <workItem from="1646778937215" duration="544000" />
+      <workItem from="1646781650403" duration="1023000" />
+      <workItem from="1646783275090" duration="1852000" />
+      <workItem from="1646786074350" duration="126000" />
+      <workItem from="1646836847398" duration="4808000" />
+      <workItem from="1646847027470" duration="9033000" />
+      <workItem from="1647012727012" duration="2133000" />
+      <workItem from="1647019741442" duration="2824000" />
+      <workItem from="1647022859925" duration="2567000" />
+      <workItem from="1647026136374" duration="1986000" />
+      <workItem from="1647112048965" duration="8687000" />
+      <workItem from="1647265529450" duration="3340000" />
+      <workItem from="1647275342626" duration="2569000" />
+      <workItem from="1647352468334" duration="2255000" />
+      <workItem from="1647452874025" duration="2771000" />
+      <workItem from="1647524915873" duration="15356000" />
+      <workItem from="1647711217192" duration="11034000" />
+      <workItem from="1647781766318" duration="1237000" />
+      <workItem from="1647882745387" duration="1132000" />
+      <workItem from="1648132541086" duration="15707000" />
+      <workItem from="1648153502289" duration="1577000" />
+      <workItem from="1648166664718" duration="1725000" />
+      <workItem from="1648221647890" duration="209000" />
+      <workItem from="1648404939095" duration="7416000" />
+      <workItem from="1648419186839" duration="1680000" />
+      <workItem from="1648483963969" duration="5999000" />
+      <workItem from="1648574303517" duration="8974000" />
+      <workItem from="1648653089110" duration="11200000" />
+      <workItem from="1648746081632" duration="9346000" />
+      <workItem from="1648757705329" duration="10323000" />
+      <workItem from="1648845212044" duration="596000" />
+      <workItem from="1648913822043" duration="706000" />
+      <workItem from="1648918886350" duration="10867000" />
+      <workItem from="1648989033636" duration="11022000" />
+      <workItem from="1649005725006" duration="6232000" />
+      <workItem from="1649078265119" duration="10360000" />
+      <workItem from="1649095707445" duration="6879000" />
+      <workItem from="1649169330276" duration="6496000" />
+      <workItem from="1649188387508" duration="2454000" />
+      <workItem from="1649251909961" duration="12411000" />
+      <workItem from="1649338701409" duration="10456000" />
+      <workItem from="1649448113593" duration="752000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Generics/practice_03_27_22/FOURd.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
