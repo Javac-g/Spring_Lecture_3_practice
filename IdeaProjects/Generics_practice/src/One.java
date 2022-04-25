@@ -1,4 +1,5 @@
 public class One<T> {
+
     T ob;
 
     One(T ob){
@@ -7,15 +8,10 @@ public class One<T> {
 
     }
 
-    public T getOb() {
+    public T getOb(){
 
         return ob;
 
     }
 
-    public String show(T ob){
-
-        return ob.getClass().getName();
-
-    }
 }
