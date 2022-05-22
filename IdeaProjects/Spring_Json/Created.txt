@@ -1,0 +1,20 @@
+
+Name: Maks
+Position: Senior
+Age: 26
+Id: 1
+Name: Maks
+Position: Senior
+Age: 26
+Id: 1
+Have friends: true
+Name: Maks
+Position: Senior
+Age: 26
+Id: 1
+Have friends: true
+Name: Maks
+Position: Senior
+Age: 26
+Id: 1
+Have friends: true

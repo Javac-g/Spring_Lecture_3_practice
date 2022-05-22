@@ -64,7 +64,7 @@ case "`uname`" in
     ;;
 esac
 
-JARPATH=$APP_HOME/lib/Spring_Json-1.0-SNAPSHOT.jar
+JARPATH=$APP_HOME/lib/Spring_Json-1.2-SNAPSHOT.jar
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then

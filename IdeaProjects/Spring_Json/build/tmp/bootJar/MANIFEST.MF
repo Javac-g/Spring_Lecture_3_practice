@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Spring-Boot-Classpath-Index: BOOT-INF/classpath.idx
-Start-Class: com.MaksDenysov.App
+Start-Class: com.MaksDenysov.V3.App
 Spring-Boot-Classes: BOOT-INF/classes/
 Spring-Boot-Lib: BOOT-INF/lib/
 Spring-Boot-Version: 2.3.1.RELEASE

@@ -63,7 +63,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set JARPATH=%APP_HOME%\lib\Spring_Json-1.0-SNAPSHOT.jar
+set JARPATH=%APP_HOME%\lib\Spring_Json-1.2-SNAPSHOT.jar
 
 @rem Execute Spring_Json
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SPRING_JSON_OPTS%  -jar "%JARPATH%" %CMD_LINE_ARGS%
