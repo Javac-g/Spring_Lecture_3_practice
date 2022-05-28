@@ -9,13 +9,13 @@ public class Main {
 
     public static void main(String...args){
 
-        System.out.println("Введите радиус окружности:  ");
+        System.out.println("Radius:  ");
 
         R = scanner.nextDouble();
 
         L = 2 * Math.PI * R;
 
-        System.out.println("Длина окружности равна: " + L);
+        System.out.println("Length: " + L);
 
         scanner.next();
 
