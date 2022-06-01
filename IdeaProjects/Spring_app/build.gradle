@@ -15,7 +15,7 @@ repositories {
 
 application{
 
-    mainClassName = 'com.Maks.App'
+    mainClassName = 'com.Maks.V3.App'
 
 }
 
