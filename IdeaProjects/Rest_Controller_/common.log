@@ -1,0 +1,13 @@
+Starting App on sonny with PID 6040 (C:\Users\Max.000\IdeaProjects\Rest_Controller_\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\Rest_Controller_) - 2022-06-08 16:04:59
+No active profile set, falling back to default profiles: default - 2022-06-08 16:04:59
+Tomcat initialized with port(s): 8080 (http) - 2022-06-08 16:05:03
+Starting service [Tomcat] - 2022-06-08 16:05:03
+Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-08 16:05:03
+Initializing Spring embedded WebApplicationContext - 2022-06-08 16:05:04
+Root WebApplicationContext: initialization completed in 4441 ms - 2022-06-08 16:05:04
+Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-08 16:05:04
+Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-08 16:05:05
+Started App in 8.132 seconds (JVM running for 10.697) - 2022-06-08 16:05:05
+Initializing Spring DispatcherServlet 'dispatcherServlet' - 2022-06-08 16:05:53
+Initializing Servlet 'dispatcherServlet' - 2022-06-08 16:05:53
+Completed initialization in 16 ms - 2022-06-08 16:05:53
