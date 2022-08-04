@@ -1,124 +1,123 @@
-Starting App on sonny with PID 11504 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-24 00:05:29
-No active profile set, falling back to default profiles: default - 2022-06-24 00:05:29
-Tomcat initialized with port(s): 8080 (http) - 2022-06-24 00:05:40
-Starting service [Tomcat] - 2022-06-24 00:05:40
-Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-24 00:05:40
-Initializing Spring embedded WebApplicationContext - 2022-06-24 00:05:43
-Root WebApplicationContext: initialization completed in 13937 ms - 2022-06-24 00:05:43
-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceOne' defined in file [C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main\com\MAX\v4\Service\ServiceOne.class]: Unexpected exception during bean creation; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'prop.KeyOne' in value "${prop.KeyOne}" - 2022-06-24 00:05:44
-Stopping service [Tomcat] - 2022-06-24 00:05:44
-
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - 2022-06-24 00:05:44
-Application run failed - 2022-06-24 00:05:44
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceOne' defined in file [C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main\com\MAX\v4\Service\ServiceOne.class]: Unexpected exception during bean creation; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'prop.KeyOne' in value "${prop.KeyOne}"
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:530)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at com.MAX.v4.App.main(App.java:10)
-Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'prop.KeyOne' in value "${prop.KeyOne}"
-	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
-	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
-	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
-	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
-	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:912)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1245)
+Starting App on sonny with PID 5748 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-26 00:47:40
+No active profile set, falling back to default profiles: default - 2022-06-26 00:47:40
+Tomcat initialized with port(s): 8080 (http) - 2022-06-26 00:48:10
+Starting service [Tomcat] - 2022-06-26 00:48:11
+Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-26 00:48:11
+Initializing Spring embedded WebApplicationContext - 2022-06-26 00:48:12
+Root WebApplicationContext: initialization completed in 30396 ms - 2022-06-26 00:48:12
+Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-26 00:48:13
+Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-26 00:48:14
+Started App in 48.389 seconds (JVM running for 63.384) - 2022-06-26 00:48:14
+Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level. - 2022-06-26 00:54:37
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xf60x010x000x000xf20x030x030x9exI0xdb]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Initializing Spring DispatcherServlet 'dispatcherServlet' - 2022-06-26 00:54:47
+Initializing Servlet 'dispatcherServlet' - 2022-06-26 00:54:47
+Completed initialization in 16 ms - 2022-06-26 00:54:47
+Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported] - 2022-06-26 00:55:49
+Starting App on sonny with PID 13472 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-26 01:33:09
+No active profile set, falling back to default profiles: default - 2022-06-26 01:33:09
+Tomcat initialized with port(s): 8080 (http) - 2022-06-26 01:33:16
+Starting service [Tomcat] - 2022-06-26 01:33:16
+Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-26 01:33:16
+Initializing Spring embedded WebApplicationContext - 2022-06-26 01:33:16
+Root WebApplicationContext: initialization completed in 7025 ms - 2022-06-26 01:33:16
+Autowired annotation is not supported on static fields: private static java.lang.Integer com.MAX.v5.Services.ServiceOne.first - 2022-06-26 01:33:16
+Autowired annotation is not supported on static fields: private static java.lang.String com.MAX.v5.Services.ServiceOne.second - 2022-06-26 01:33:16
+Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-26 01:33:17
+Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-26 01:33:17
+Started App in 11.249 seconds (JVM running for 18.31) - 2022-06-26 01:33:17
+Initializing Spring DispatcherServlet 'dispatcherServlet' - 2022-06-26 01:34:09
+Initializing Servlet 'dispatcherServlet' - 2022-06-26 01:34:09
+Completed initialization in 46 ms - 2022-06-26 01:34:09
+Starting App on sonny with PID 14936 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-26 01:35:26
+No active profile set, falling back to default profiles: default - 2022-06-26 01:35:26
+Tomcat initialized with port(s): 8080 (http) - 2022-06-26 01:35:33
+Starting service [Tomcat] - 2022-06-26 01:35:33
+Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-26 01:35:33
+Initializing Spring embedded WebApplicationContext - 2022-06-26 01:35:35
+Root WebApplicationContext: initialization completed in 8797 ms - 2022-06-26 01:35:35
+Autowired annotation is not supported on static fields: private static java.lang.Integer com.MAX.v5.Services.ServiceOne.first - 2022-06-26 01:35:36
+Autowired annotation is not supported on static fields: private static java.lang.String com.MAX.v5.Services.ServiceOne.second - 2022-06-26 01:35:36
+Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-26 01:35:37
+Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-26 01:35:39
+Started App in 15.709 seconds (JVM running for 17.834) - 2022-06-26 01:35:40
+Initializing Spring DispatcherServlet 'dispatcherServlet' - 2022-06-26 01:35:42
+Initializing Servlet 'dispatcherServlet' - 2022-06-26 01:35:42
+Completed initialization in 15 ms - 2022-06-26 01:35:42
+Starting App on sonny with PID 9924 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-26 01:39:07
+No active profile set, falling back to default profiles: default - 2022-06-26 01:39:07
+Tomcat initialized with port(s): 8080 (http) - 2022-06-26 01:39:11
+Starting service [Tomcat] - 2022-06-26 01:39:11
+Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-26 01:39:11
+Initializing Spring embedded WebApplicationContext - 2022-06-26 01:39:12
+Root WebApplicationContext: initialization completed in 4909 ms - 2022-06-26 01:39:12
+Autowired annotation is not supported on static fields: private static java.lang.Integer com.MAX.v5.Services.ServiceOne.first - 2022-06-26 01:39:12
+Autowired annotation is not supported on static fields: private static java.lang.String com.MAX.v5.Services.ServiceOne.second - 2022-06-26 01:39:12
+Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-26 01:39:13
+Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-26 01:39:14
+Started App in 9.516 seconds (JVM running for 11.591) - 2022-06-26 01:39:14
+Initializing Spring DispatcherServlet 'dispatcherServlet' - 2022-06-26 01:40:25
+Initializing Servlet 'dispatcherServlet' - 2022-06-26 01:40:25
+Completed initialization in 156 ms - 2022-06-26 01:40:25
+Starting App on sonny with PID 13140 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-26 01:41:02
+No active profile set, falling back to default profiles: default - 2022-06-26 01:41:03
+Tomcat initialized with port(s): 8080 (http) - 2022-06-26 01:41:06
+Starting service [Tomcat] - 2022-06-26 01:41:06
+Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-26 01:41:06
+Initializing Spring embedded WebApplicationContext - 2022-06-26 01:41:07
+Root WebApplicationContext: initialization completed in 3890 ms - 2022-06-26 01:41:07
+Autowired annotation is not supported on static fields: private static java.lang.Integer com.MAX.v5.Services.ServiceOne.first - 2022-06-26 01:41:07
+Autowired annotation is not supported on static fields: private static java.lang.String com.MAX.v5.Services.ServiceOne.second - 2022-06-26 01:41:07
+Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-26 01:41:07
+Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-26 01:41:09
+Started App in 7.976 seconds (JVM running for 8.782) - 2022-06-26 01:41:09
+Initializing Spring DispatcherServlet 'dispatcherServlet' - 2022-06-26 01:41:21
+Initializing Servlet 'dispatcherServlet' - 2022-06-26 01:41:21
+Completed initialization in 31 ms - 2022-06-26 01:41:21
+Starting App on sonny with PID 5656 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-26 01:49:38
+No active profile set, falling back to default profiles: default - 2022-06-26 01:49:38
+Tomcat initialized with port(s): 8080 (http) - 2022-06-26 01:49:42
+Starting service [Tomcat] - 2022-06-26 01:49:42
+Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-26 01:49:42
+Initializing Spring embedded WebApplicationContext - 2022-06-26 01:49:43
+Root WebApplicationContext: initialization completed in 4796 ms - 2022-06-26 01:49:43
+Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-26 01:49:43
+Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-26 01:49:44
+Started App in 8.286 seconds (JVM running for 10.409) - 2022-06-26 01:49:44
+Initializing Spring DispatcherServlet 'dispatcherServlet' - 2022-06-26 01:49:48
+Initializing Servlet 'dispatcherServlet' - 2022-06-26 01:49:48
+Completed initialization in 16 ms - 2022-06-26 01:49:48
+Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'Controller': Unsatisfied dependency expressed through field 'serviceOne'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.MAX.v5.Services.ServiceOne' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}] with root cause - 2022-06-26 01:49:48
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.MAX.v5.Services.ServiceOne' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1714)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1270)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
-	... 15 common frames omitted
-Starting App on sonny with PID 4228 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-24 00:09:10
-No active profile set, falling back to default profiles: default - 2022-06-24 00:09:10
-Tomcat initialized with port(s): 8080 (http) - 2022-06-24 00:09:18
-Starting service [Tomcat] - 2022-06-24 00:09:18
-Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-24 00:09:18
-Initializing Spring embedded WebApplicationContext - 2022-06-24 00:09:19
-Root WebApplicationContext: initialization completed in 9006 ms - 2022-06-24 00:09:19
-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceOne' defined in file [C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main\com\MAX\v4\Service\ServiceOne.class]: Unexpected exception during bean creation; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'prop.KeyOne' in value "${prop.KeyOne}" - 2022-06-24 00:09:20
-Stopping service [Tomcat] - 2022-06-24 00:09:20
-
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - 2022-06-24 00:09:20
-Application run failed - 2022-06-24 00:09:20
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serviceOne' defined in file [C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main\com\MAX\v4\Service\ServiceOne.class]: Unexpected exception during bean creation; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'prop.KeyOne' in value "${prop.KeyOne}"
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:530)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:341)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at com.MAX.v4.App.main(App.java:10)
-Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'prop.KeyOne' in value "${prop.KeyOne}"
-	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
-	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
-	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
-	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
-	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:912)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1245)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1358)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
-	... 15 common frames omitted
-Starting App on sonny with PID 6664 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-24 00:14:34
-No active profile set, falling back to default profiles: default - 2022-06-24 00:14:34
-Tomcat initialized with port(s): 8080 (http) - 2022-06-24 00:14:46
-Starting service [Tomcat] - 2022-06-24 00:14:46
-Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-24 00:14:46
-Initializing Spring embedded WebApplicationContext - 2022-06-24 00:14:49
-Root WebApplicationContext: initialization completed in 14628 ms - 2022-06-24 00:14:49
-Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-24 00:14:51
-Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-24 00:14:52
-Started App in 22.642 seconds (JVM running for 28.893) - 2022-06-24 00:14:52
-Initializing Spring DispatcherServlet 'dispatcherServlet' - 2022-06-24 00:15:44
-Initializing Servlet 'dispatcherServlet' - 2022-06-24 00:15:44
-Completed initialization in 16 ms - 2022-06-24 00:15:44
-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause - 2022-06-24 00:15:44
-java.lang.NullPointerException: null
-	at com.MAX.v4.Controller.Controller.prop(Controller.java:38)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.method.HandlerMethod.createWithResolvedBean(HandlerMethod.java:336)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:368)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:110)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
@@ -158,201 +157,43 @@ java.lang.NullPointerException: null
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause - 2022-06-24 00:15:50
-java.lang.NullPointerException: null
-	at com.MAX.v4.Controller.Controller.prop(Controller.java:38)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:750)
-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause - 2022-06-24 00:16:04
-java.lang.NullPointerException: null
-	at com.MAX.v4.Controller.Controller.prop(Controller.java:38)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:750)
-Starting App on sonny with PID 6436 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-24 00:21:39
-No active profile set, falling back to default profiles: default - 2022-06-24 00:21:39
-Tomcat initialized with port(s): 8080 (http) - 2022-06-24 00:22:00
-Starting service [Tomcat] - 2022-06-24 00:22:01
-Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-24 00:22:01
-Initializing Spring embedded WebApplicationContext - 2022-06-24 00:22:05
-Root WebApplicationContext: initialization completed in 25243 ms - 2022-06-24 00:22:05
-Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-24 00:22:08
-Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-24 00:22:10
-Started App in 58.518 seconds (JVM running for 128.734) - 2022-06-24 00:22:10
-Initializing Spring DispatcherServlet 'dispatcherServlet' - 2022-06-24 00:22:26
-Initializing Servlet 'dispatcherServlet' - 2022-06-24 00:22:26
-Completed initialization in 14 ms - 2022-06-24 00:22:26
-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause - 2022-06-24 00:22:27
-java.lang.NullPointerException: null
-	at com.MAX.v4.Controller.Controller.prop(Controller.java:38)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:750)
-Starting App on sonny with PID 6036 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-24 00:39:02
-No active profile set, falling back to default profiles: default - 2022-06-24 00:39:02
-Tomcat initialized with port(s): 8080 (http) - 2022-06-24 00:39:06
-Starting service [Tomcat] - 2022-06-24 00:39:06
-Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-24 00:39:06
-Initializing Spring embedded WebApplicationContext - 2022-06-24 00:39:07
-Root WebApplicationContext: initialization completed in 4830 ms - 2022-06-24 00:39:07
-Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-24 00:39:07
-Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-24 00:39:08
-Started App in 8.32 seconds (JVM running for 9.428) - 2022-06-24 00:39:08
-Initializing Spring DispatcherServlet 'dispatcherServlet' - 2022-06-24 00:39:14
-Initializing Servlet 'dispatcherServlet' - 2022-06-24 00:39:14
-Completed initialization in 14 ms - 2022-06-24 00:39:14
-Starting App on sonny with PID 11500 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-24 00:40:19
-No active profile set, falling back to default profiles: default - 2022-06-24 00:40:19
-Tomcat initialized with port(s): 8080 (http) - 2022-06-24 00:40:22
-Starting service [Tomcat] - 2022-06-24 00:40:22
-Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-24 00:40:22
-Initializing Spring embedded WebApplicationContext - 2022-06-24 00:40:22
-Root WebApplicationContext: initialization completed in 3370 ms - 2022-06-24 00:40:22
-Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-24 00:40:23
-Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-24 00:40:23
-Started App in 5.608 seconds (JVM running for 6.586) - 2022-06-24 00:40:23
-Initializing Spring DispatcherServlet 'dispatcherServlet' - 2022-06-24 00:40:30
-Initializing Servlet 'dispatcherServlet' - 2022-06-24 00:40:30
-Completed initialization in 52 ms - 2022-06-24 00:40:30
+Starting App on sonny with PID 1888 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-26 01:51:46
+No active profile set, falling back to default profiles: default - 2022-06-26 01:51:46
+Tomcat initialized with port(s): 8080 (http) - 2022-06-26 01:51:54
+Starting service [Tomcat] - 2022-06-26 01:51:54
+Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-26 01:51:54
+Initializing Spring embedded WebApplicationContext - 2022-06-26 01:51:56
+Root WebApplicationContext: initialization completed in 9170 ms - 2022-06-26 01:51:56
+Autowired annotation is not supported on static fields: private static java.lang.Integer com.MAX.v5.Services.ServiceOne.first - 2022-06-26 01:51:56
+Autowired annotation is not supported on static fields: private static java.lang.String com.MAX.v5.Services.ServiceOne.second - 2022-06-26 01:51:56
+Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-26 01:51:57
+Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-26 01:51:59
+Started App in 15.34 seconds (JVM running for 16.155) - 2022-06-26 01:51:59
+Initializing Spring DispatcherServlet 'dispatcherServlet' - 2022-06-26 01:52:10
+Initializing Servlet 'dispatcherServlet' - 2022-06-26 01:52:10
+Completed initialization in 156 ms - 2022-06-26 01:52:10
+Starting App on sonny with PID 11532 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-26 01:57:31
+No active profile set, falling back to default profiles: default - 2022-06-26 01:57:31
+Tomcat initialized with port(s): 8080 (http) - 2022-06-26 01:57:36
+Starting service [Tomcat] - 2022-06-26 01:57:36
+Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-26 01:57:36
+Initializing Spring embedded WebApplicationContext - 2022-06-26 01:57:36
+Root WebApplicationContext: initialization completed in 5016 ms - 2022-06-26 01:57:36
+Autowired annotation is not supported on static fields: private static java.lang.Integer com.MAX.v5.Services.ServiceOne.first - 2022-06-26 01:57:37
+Autowired annotation is not supported on static fields: private static java.lang.String com.MAX.v5.Services.ServiceOne.second - 2022-06-26 01:57:37
+Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-26 01:57:37
+Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-26 01:57:38
+Started App in 8.085 seconds (JVM running for 8.89) - 2022-06-26 01:57:38
+Starting App on sonny with PID 12692 (C:\Users\Max.000\IdeaProjects\SpringApp\build\classes\java\main started by Max in C:\Users\Max.000\IdeaProjects\SpringApp) - 2022-06-26 01:59:24
+No active profile set, falling back to default profiles: default - 2022-06-26 01:59:24
+Tomcat initialized with port(s): 8080 (http) - 2022-06-26 01:59:27
+Starting service [Tomcat] - 2022-06-26 01:59:27
+Starting Servlet engine: [Apache Tomcat/9.0.36] - 2022-06-26 01:59:27
+Initializing Spring embedded WebApplicationContext - 2022-06-26 01:59:28
+Root WebApplicationContext: initialization completed in 3125 ms - 2022-06-26 01:59:28
+Initializing ExecutorService 'applicationTaskExecutor' - 2022-06-26 01:59:28
+Tomcat started on port(s): 8080 (http) with context path '' - 2022-06-26 01:59:28
+Started App in 5.399 seconds (JVM running for 6.913) - 2022-06-26 01:59:29
+Initializing Spring DispatcherServlet 'dispatcherServlet' - 2022-06-26 01:59:32
+Initializing Servlet 'dispatcherServlet' - 2022-06-26 01:59:32
+Completed initialization in 31 ms - 2022-06-26 01:59:32

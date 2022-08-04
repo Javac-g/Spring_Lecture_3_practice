@@ -9,7 +9,7 @@ group 'Denysov'
 version '1.0-SNAPSHOT'
 application{
 
-    mainClassName = 'com.MAX.v4.App'
+    mainClassName = 'com.MAX.v6.App'
 }
 repositories {
     mavenCentral()
