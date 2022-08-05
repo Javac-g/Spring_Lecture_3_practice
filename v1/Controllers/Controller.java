@@ -22,7 +22,7 @@ public class Controller {
     }
 
 
-    @RequestMapping(value = "/S",method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/service",method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public String service(){
         logger.info("https://192.168.0.104:8090/One");

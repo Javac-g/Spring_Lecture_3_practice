@@ -25,8 +25,8 @@ public class SpringConfigurationFactory {
     //////////////////////////////////// -  C O N T R O L L E R S -////////////////////////////////////
     @Bean("Controller")
     public Controller controller(){
-        Controller controller = new Controller(service_one_a(),service_one_b());
-        return controller;
+        return new Controller(service_one_a(),service_one_b());
+
     }
 
 
