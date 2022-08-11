@@ -15,4 +15,8 @@ public class Service_Three_B {
     public Service_Three_B(@Value("${prop.s3b}") String one){
         this.one = one;
     }
+
+    public String getOne() {
+        return one;
+    }
 }
