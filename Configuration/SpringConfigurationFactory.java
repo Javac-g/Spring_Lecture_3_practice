@@ -6,6 +6,9 @@ import com.company.v1.Services.Service_One_B;
 import com.company.v2.Controllers.ControllerTwo;
 import com.company.v2.Services.Service_Two_A;
 import com.company.v2.Services.Service_Two_B;
+import com.company.v5.Controllers.ControllerFive;
+import com.company.v5.Services.Service_Five_A;
+import com.company.v5.Services.Service_Five_B;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
@@ -36,6 +39,16 @@ public class SpringConfigurationFactory {
     public Service_Two_B service_two_b(){
         return new Service_Two_B();
     }
+    @Bean("Service_Five_A")
+    @Scope("prototype")
+    public Service_Five_A service_five_aBean(){
+        return new Service_Five_A();
+    }
+    @Bean
+    @Scope("prototype")
+    public Service_Five_B service_five_bBean(){
+        return new Service_Five_B();
+    }
 
     //////////////////////////////////// -  C O N T R O L L E R S -////////////////////////////////////
     @Bean("Controller")
@@ -53,7 +66,21 @@ public class SpringConfigurationFactory {
         controllerTwo.setService_two_b(service_two_b());
         return controllerTwo;
     }
+    @Bean("ControllerFive")
+    public ControllerFive controllerFive(){
+        ControllerFive controllerFive = new ControllerFive(){
+            @Override
+            protected Service_Five_A service_five_a() {
+                return service_five_aBean();
+            }
 
+            @Override
+            protected Service_Five_B service_five_b() {
+                return service_five_bBean();
+            }
+        };
+        return controllerFive;
+    }
 
 
 

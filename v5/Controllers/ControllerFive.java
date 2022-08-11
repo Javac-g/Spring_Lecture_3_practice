@@ -1,6 +1,5 @@
 package com.company.v5.Controllers;
 
-import com.company.v4.Services.Service_Four_B;
 import com.company.v5.Services.Service_Five_A;
 import com.company.v5.Services.Service_Five_B;
 import org.slf4j.Logger;
@@ -11,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @RequestMapping("/Five")
-public class Controller {
+public class ControllerFive {
 
-    private static final Logger logger = LoggerFactory.getLogger(Controller.class);
+    private static final Logger logger = LoggerFactory.getLogger(ControllerFive.class);
 
     protected Service_Five_A service_five_a(){
         throw new UnsupportedOperationException();
